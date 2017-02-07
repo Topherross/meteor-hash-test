@@ -1,0 +1,40 @@
+<head>
+    <title>meteor-hash-decryption</title>
+</head>
+
+<body>
+<header>
+    <h1>
+        <img src="/img/Primordial_FINAL-318x128@2x.png" id="brand-logo"/>
+        Hash Test
+    </h1>
+</header>
+
+<section class="content-wrapper">
+    <div class="page-content">
+        {{> hasher}}
+    </div>
+</section>
+
+<footer>
+    <p class="copyright">Copyright &#169; 2017 Primordial Studios Inc. All rights reserved.</p>
+</footer>
+</body>
+
+<template name="hasher">
+    <form class="hash-form">
+        <label for="hash">Enter hash, and hash length to verify, and decrypt</label>
+        <div class="flex-field-set">
+            <input type="text" name="hash" id="hash" value="" placeholder="Enter Hash"/>
+            <select id="string-length" name="string-length">
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+            <button type="submit">Decrypt</button>
+        </div>
+    </form>
+    <div class="output">{{output}}</div>
+</template>

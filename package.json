@@ -1,0 +1,12 @@
+{
+  "name": "meteor-hash-calculator",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "6.18.0",
+    "big-integer": "^1.6.17",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}

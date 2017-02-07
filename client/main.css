@@ -1,0 +1,129 @@
+/* CSS declarations go here */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background: #231923;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background: #231923;
+}
+
+header {
+    justify-content: center;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    max-width: 1280px;
+    color: #FFFFFF;
+    font-weight: 300;
+    flex: 1 100%;
+}
+
+#brand-logo {
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.content-wrapper {
+    background: #E8E8E8;
+    display: flex;
+    justify-content: center;
+}
+
+.page-content {
+    max-width: 1280px;
+    min-height: 300px;
+    flex: 1 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.hash-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin: 0 0 10px;
+}
+
+input,
+button,
+select {
+    line-height: 33px;
+    height: 33px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input,
+select {
+    border: #B2B4BC 1px solid;
+}
+
+input {
+    padding: 6px 10px;
+    min-width: 360px;
+}
+
+button {
+    color: #D5E04E;
+    background: #252525;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 0 0 20px;
+}
+
+select {
+    width: 60px;
+    margin: 0 0 0 10px;
+    padding: 0 20px 0 6px;
+    background: #FFFFFF url("/svg/select-arrow.svg") no-repeat 86% center;
+    background-size: auto 14px;
+}
+
+.flex-field-set {
+    display: flex;
+    align-items: center;
+}
+
+.output {
+    font-size: 21px;
+    margin: 20px 0;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 10px;
+}
